@@ -1,0 +1,12 @@
+{
+  "name": "foxbridge",
+  "owner": { "name": "Jennifer K. Mellen" },
+  "metadata": { "description": "FoxBridge: drive Firefox from Claude Code. © 2026 Jennifer K. Mellen" },
+  "plugins": [
+    {
+      "name": "foxbridge",
+      "source": "./",
+      "description": "Drive Firefox from Claude Code. © 2026 Jennifer K. Mellen"
+    }
+  ]
+}

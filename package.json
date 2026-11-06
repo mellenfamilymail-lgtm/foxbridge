@@ -1,0 +1,13 @@
+{
+  "name": "foxbridge",
+  "version": "0.1.0",
+  "description": "Drive Firefox from Claude Code. © 2026 Jennifer K. Mellen",
+  "author": "Jennifer K. Mellen",
+  "license": "UNLICENSED",
+  "private": true,
+  "bin": { "foxbridge": "server/index.js" },
+  "scripts": {
+    "build": "node -e \"require('fs').mkdirSync('dist',{recursive:true})\" && tar -a -c -f dist/foxbridge.zip -C extension manifest.json background.js content.js icon.svg && node -e \"require('fs').renameSync('dist/foxbridge.zip','dist/foxbridge.xpi')\"",
+    "start": "node server/index.js"
+  }
+}
