@@ -1,12 +1,12 @@
 ---
 name: firefox-browser
-description: Use the FoxBridge tools (mcp__firefox__*) to browse, read, click, type and debug in the user's Firefox. Use when the user asks to do something in Firefox, test a site in Firefox, or prefers Firefox over Chrome.
+description: Use the FoxBridge Firefox tools (names ending in firefox__navigate, firefox__click, etc.) to browse, read, click, type and debug in the user's Firefox. Use when the user asks to do something in Firefox, test a site in Firefox, or prefers Firefox over Chrome.
 ---
 <!-- © 2026 Jennifer K. Mellen -->
 
 # Firefox Browser (FoxBridge)
 
-The `mcp__firefox__*` tools control the user's real Firefox through the FoxBridge extension.
+The FoxBridge `firefox__*` tools control the user's real Firefox through the FoxBridge extension.
 
 ## Workflow
 1. `tabs_list` to see what is open, or `navigate` / `tabs_create` with a URL.
