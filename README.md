@@ -17,7 +17,7 @@ Needs [Node.js](https://nodejs.org) 18 or newer and Claude Code.
    /plugin marketplace add mellenfamilymail-lgtm/foxbridge
    /plugin install foxbridge@foxbridge
    ```
-2. **Firefox add-on** - until the Mozilla-signed version is listed on addons.mozilla.org:
+2. **Firefox add-on** - install it from [addons.mozilla.org/firefox/addon/foxbridge-for-claude](https://addons.mozilla.org/firefox/addon/foxbridge-for-claude/) (works in any Firefox once Mozilla's review is done). Until then:
    - Use [Firefox Developer Edition](https://www.mozilla.org/firefox/developer/), open `about:config` and set `xpinstall.signatures.required` to `false`.
    - Download `foxbridge.xpi` from [Releases](https://github.com/mellenfamilymail-lgtm/foxbridge/releases) and drag it into Firefox.
 3. Restart Claude Code and ask it to do something in Firefox.
