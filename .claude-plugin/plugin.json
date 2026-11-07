@@ -13,5 +13,11 @@
     "browser",
     "automation",
     "mcp"
-  ]
+  ],
+  "homepage": "https://github.com/mellenfamilymail-lgtm/foxbridge",
+  "repository": "https://github.com/mellenfamilymail-lgtm/foxbridge",
+  "documentationUrl": "https://github.com/mellenfamilymail-lgtm/foxbridge#readme",
+  "supportUrl": "https://github.com/mellenfamilymail-lgtm/foxbridge/issues",
+  "privacyPolicyUrl": "https://github.com/mellenfamilymail-lgtm/foxbridge/blob/master/PRIVACY.md",
+  "termsOfServiceUrl": "https://github.com/mellenfamilymail-lgtm/foxbridge/blob/master/LICENSE"
 }
