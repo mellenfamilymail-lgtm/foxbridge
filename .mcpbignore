@@ -1,0 +1,13 @@
+# © 2026 Jennifer K. Mellen
+.git/
+.claude-plugin/
+.mcp.json
+extension/
+skills/
+store/
+test/
+dist/
+README.md
+package.json
+.gitignore
+.mcpbignore

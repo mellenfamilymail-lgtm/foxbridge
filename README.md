@@ -22,6 +22,12 @@ Needs [Node.js](https://nodejs.org) 18 or newer and Claude Code.
    - Download `foxbridge.xpi` from [Releases](https://github.com/mellenfamilymail-lgtm/foxbridge/releases) and drag it into Firefox.
 3. Restart Claude Code and ask it to do something in Firefox.
 
+### Claude Desktop (Chat App)
+FoxBridge also works in the Claude desktop app, not just Claude Code:
+1. Download `foxbridge.mcpb` from [Releases](https://github.com/mellenfamilymail-lgtm/foxbridge/releases).
+2. Double-click it (or drag it into Claude Desktop under **Settings > Extensions**) and click **Install**.
+3. Install the Firefox add-on as in step 2 above, then ask Claude to "list my Firefox tabs".
+
 ## Check It Works
 In Claude Code, ask: "List my Firefox tabs." Claude should answer with your open tabs.
 The FoxBridge toolbar icon in Firefox shows an "off" badge while Claude is not connected, and no badge once it is.
@@ -38,7 +44,7 @@ The FoxBridge toolbar icon in Firefox shows an "off" badge while Claude is not c
 Run `/plugin uninstall foxbridge@foxbridge` in Claude Code and remove FoxBridge from `about:addons` in Firefox.
 
 ## Build from source
-`npm run build` writes `dist/foxbridge.xpi`. `node test/smoke.js` runs a live test against an open Firefox.
+`npm run build` writes `dist/foxbridge.xpi`. `npm run build:mcpb` writes the Claude Desktop extension `dist/foxbridge.mcpb`. `node test/smoke.js` runs a live test against an open Firefox.
 
 ## Tools
 tabs_list, tabs_create, tabs_close, tabs_select, navigate, screenshot, read_page, find, get_page_text,
