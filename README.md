@@ -40,6 +40,22 @@ Unsigned builds are used at your own risk. They come from this repository only; 
 In Claude Code, ask: "List my Firefox tabs." Claude should answer with your open tabs.
 The FoxBridge toolbar icon in Firefox shows an "off" badge while Claude is not connected, and no badge once it is.
 
+## How to Use
+Keep Firefox open, then ask Claude in plain words. You don't need to name the tools. Some examples:
+- "List my Firefox tabs."
+- "Open https://example.com in Firefox and tell me what the page says."
+- "Search Firefox for 'weather Boston' and read me the forecast."
+- "Fill in the contact form on this page with my name and email, but don't submit it."
+- "Take a screenshot of the current Firefox tab."
+- "Open my web app at http://localhost:3000, click Sign Up and tell me about any console errors."
+- "Check the network requests on this page for failed calls."
+
+Tips:
+- Claude works in your real Firefox, so it can see sites you are already signed in to. Stay at the computer when it is filling in forms or clicking buttons.
+- Tell Claude to ask before it submits, sends, buys or deletes anything.
+- Only one Claude session can drive Firefox at a time.
+- Firefox doesn't let any add-on work on `about:` pages or addons.mozilla.org.
+
 ## Troubleshooting
 - **"Firefox is not connected"** - make sure Firefox is open with FoxBridge enabled (`about:addons`), then wait a few seconds; it reconnects every 2 seconds.
 - **Badge stays "off"** - restart Claude Code. Only one Claude Code session can drive Firefox at a time; close the other one.
