@@ -1,8 +1,17 @@
 {
   "name": "foxbridge",
+  "displayName": "FoxBridge",
   "version": "0.1.0",
   "description": "Drive Firefox from Claude Code: tabs, navigation, screenshots, page reading, clicking, typing, forms, JavaScript, console and network logs. © 2026 Jennifer K. Mellen",
-  "author": { "name": "Jennifer K. Mellen", "email": "mellenfamilymail@gmail.com" },
+  "author": {
+    "name": "Jennifer K. Mellen",
+    "email": "mellenfamilymail@gmail.com"
+  },
   "license": "Proprietary",
-  "keywords": ["firefox", "browser", "automation", "mcp"]
+  "keywords": [
+    "firefox",
+    "browser",
+    "automation",
+    "mcp"
+  ]
 }
