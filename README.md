@@ -28,6 +28,14 @@ FoxBridge also works in the Claude desktop app, not just Claude Code:
 2. Double-click it (or drag it into Claude Desktop under **Settings > Extensions**) and click **Install**.
 3. Install the Firefox add-on as in step 2 above, then ask Claude to "list my Firefox tabs".
 
+### Unsigned Builds
+FoxBridge is not listed in Anthropic's plugin directory (local MCP servers are accepted there only from Verified organizations), and the Firefox add-on is unsigned until Mozilla's review is done. You can still use every part:
+- **Claude Code plugin** - install it from this repo with the `/plugin` commands above. The directory listing is not needed.
+- **Claude Desktop** - `foxbridge.mcpb` is unsigned. Claude Desktop shows an "unverified" warning; click **Install** to continue.
+- **Firefox add-on** - in Firefox Developer Edition or Nightly, set `xpinstall.signatures.required` to `false` in `about:config`, then drag `foxbridge.xpi` into Firefox. In regular Firefox, open `about:debugging` > **This Firefox** > **Load Temporary Add-on** and pick `foxbridge.xpi`; it is removed when Firefox restarts.
+
+Unsigned builds are used at your own risk. They come from this repository only; do not install copies from anywhere else.
+
 ## Check It Works
 In Claude Code, ask: "List my Firefox tabs." Claude should answer with your open tabs.
 The FoxBridge toolbar icon in Firefox shows an "off" badge while Claude is not connected, and no badge once it is.
