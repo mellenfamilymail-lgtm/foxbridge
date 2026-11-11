@@ -1,4 +1,4 @@
-// © 2026 Jennifer K. Mellen - FoxBridge smoke test
+// © 2026 Jennifer K. Telfer - FoxBridge smoke test
 const { spawn } = require('child_process');
 const p = spawn('node', ['D:/FirefoxClaude/server/index.js']);
 p.stderr.on('data', d => process.stdout.write('ERR ' + d));

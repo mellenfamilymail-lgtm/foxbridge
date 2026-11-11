@@ -2,7 +2,7 @@
 name: firefox-browser
 description: Use the FoxBridge Firefox tools (names ending in firefox__navigate, firefox__click, etc.) to browse, read, click, type and debug in the user's Firefox. Use when the user asks to do something in Firefox, test a site in Firefox, or prefers Firefox over Chrome.
 ---
-<!-- © 2026 Jennifer K. Mellen -->
+<!-- © 2026 Jennifer K. Telfer -->
 
 # Firefox Browser (FoxBridge)
 

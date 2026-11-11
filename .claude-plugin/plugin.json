@@ -2,9 +2,9 @@
   "name": "foxbridge",
   "displayName": "FoxBridge",
   "version": "0.1.0",
-  "description": "Drive Firefox from Claude Code: tabs, navigation, screenshots, page reading, clicking, typing, forms, JavaScript, console and network logs. © 2026 Jennifer K. Mellen",
+  "description": "Drive Firefox from Claude Code: tabs, navigation, screenshots, page reading, clicking, typing, forms, JavaScript, console and network logs. © 2026 Jennifer K. Telfer",
   "author": {
-    "name": "Jennifer K. Mellen",
+    "name": "Jennifer K. Telfer",
     "email": "mellenfamilymail@gmail.com"
   },
   "license": "Proprietary",

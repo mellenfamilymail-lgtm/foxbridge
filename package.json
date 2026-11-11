@@ -1,8 +1,8 @@
 {
   "name": "foxbridge",
   "version": "0.1.0",
-  "description": "Drive Firefox from Claude Code. © 2026 Jennifer K. Mellen",
-  "author": "Jennifer K. Mellen",
+  "description": "Drive Firefox from Claude Code. © 2026 Jennifer K. Telfer",
+  "author": "Jennifer K. Telfer",
   "license": "UNLICENSED",
   "private": true,
   "bin": {

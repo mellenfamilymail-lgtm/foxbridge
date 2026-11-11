@@ -1,6 +1,6 @@
 # FoxBridge
 
-© 2026 Jennifer K. Mellen
+© 2026 Jennifer K. Telfer
 
 FoxBridge lets Claude Code drive Firefox the way Claude in Chrome drives Chrome.
 

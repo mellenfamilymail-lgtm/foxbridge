@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // FoxBridge MCP server - lets Claude Code drive Firefox through the FoxBridge extension.
-// © 2026 Jennifer K. Mellen
+// © 2026 Jennifer K. Telfer
 'use strict';
 const http = require('http');
 const crypto = require('crypto');

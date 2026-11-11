@@ -1,5 +1,5 @@
 // FoxBridge background - connects Firefox to the local FoxBridge MCP server.
-// © 2026 Jennifer K. Mellen
+// © 2026 Jennifer K. Telfer
 'use strict';
 const PORT = 47821;
 const netLog = new Map(); // tabId -> [{...}]

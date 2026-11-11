@@ -1,4 +1,4 @@
-<!-- © 2026 Jennifer K. Mellen -->
+<!-- © 2026 Jennifer K. Telfer -->
 # addons.mozilla.org Listing
 
 **Name:** FoxBridge

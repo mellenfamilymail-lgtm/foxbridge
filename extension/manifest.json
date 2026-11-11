@@ -2,8 +2,8 @@
   "manifest_version": 2,
   "name": "FoxBridge",
   "version": "0.1.0",
-  "description": "Lets Claude Code drive Firefox through a local bridge. © 2026 Jennifer K. Mellen",
-  "author": "Jennifer K. Mellen",
+  "description": "Lets Claude Code drive Firefox through a local bridge. © 2026 Jennifer K. Telfer",
+  "author": "Jennifer K. Telfer",
   "browser_specific_settings": {
     "gecko": {
       "id": "foxbridge@jkmellen",

@@ -1,5 +1,5 @@
 // FoxBridge content script - reads and operates the page for Claude.
-// © 2026 Jennifer K. Mellen
+// © 2026 Jennifer K. Telfer
 (() => {
   'use strict';
   if (window.__foxbridgeLoaded) return;

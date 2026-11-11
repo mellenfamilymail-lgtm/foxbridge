@@ -4,9 +4,9 @@
   "display_name": "FoxBridge",
   "version": "0.1.0",
   "description": "Let Claude use your Firefox: tabs, pages, clicks, typing, forms, screenshots, console and network logs.",
-  "long_description": "FoxBridge connects Claude to your own Firefox through a small add-on. Claude can list, open and switch tabs, read pages, click, type, fill forms, take screenshots, run JavaScript and read console and network logs. Everything stays on your computer (127.0.0.1). Install the FoxBridge add-on from addons.mozilla.org/firefox/addon/foxbridge-for-claude. © 2026 Jennifer K. Mellen",
+  "long_description": "FoxBridge connects Claude to your own Firefox through a small add-on. Claude can list, open and switch tabs, read pages, click, type, fill forms, take screenshots, run JavaScript and read console and network logs. Everything stays on your computer (127.0.0.1). Install the FoxBridge add-on from addons.mozilla.org/firefox/addon/foxbridge-for-claude. © 2026 Jennifer K. Telfer",
   "author": {
-    "name": "Jennifer K. Mellen",
+    "name": "Jennifer K. Telfer",
     "email": "mellenfamilymail@gmail.com",
     "url": "https://github.com/mellenfamilymail-lgtm/foxbridge"
   },
